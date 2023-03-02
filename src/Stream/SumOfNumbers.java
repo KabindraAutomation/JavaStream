@@ -10,7 +10,7 @@ public class SumOfNumbers {
 
         //Using Arrays
         List<Integer> list = Arrays.asList(1, 11, 2);
-        Optional<Integer> sum = list.stream().reduce((a, b)-> a+b);
+        Optional<Integer> sum = list.stream().reduce((a, b)-> a+b); // .reduce((a,b)-> a*b);
         System.out.println("Sum of number listed on Array :" + sum.get());
 
         //Using ArrayList
@@ -18,7 +18,7 @@ public class SumOfNumbers {
         list1.add(1);
         list1.add(22);
         list1.add(22);
-        Optional Sum = list1.stream().reduce((a, b)->a+b);
+        Optional Sum = list1.stream().reduce((a, b)->a+b); // .reduce((a,b)-> a*b);
         System.out.println("Sum of number :" + Sum.get());
     }
 

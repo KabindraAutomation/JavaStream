@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22a59bd-842f-484c-8ecc-fc4039a16dcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/AvgOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/SumOfNumbers.java" afterDir="false" />
+    <list default="true" id="e22a59bd-842f-484c-8ecc-fc4039a16dcb" name="Changes" comment="Java Streaming practise">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/GreaterThan100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/NumberSquareAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/SumOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/SumOfNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +39,41 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AvgOfNumber">
-    <configuration name="AvgOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GreaterThan100">
+    <configuration name="GreaterThan100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.GreaterThan100" />
+      <module name="JavaStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberSquareAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.NumberSquareAverage" />
+      <module name="JavaStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stream.AvgOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.AvgOfNumber" />
       <module name="JavaStream" />
       <extension name="coverage">
@@ -62,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Stream.SumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.SumOfNumbers" />
       <module name="JavaStream" />
       <extension name="coverage">
@@ -77,8 +101,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AvgOfNumber" />
-        <item itemvalue="Application.SumOfNumbers" />
+        <item itemvalue="Application.GreaterThan100" />
+        <item itemvalue="Application.NumberSquareAverage" />
+        <item itemvalue="Application.Stream.AvgOfNumber" />
+        <item itemvalue="Application.Stream.SumOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677790333260</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Streaming practise">
+      <created>1677792800842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677792800842</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Streaming practise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Streaming practise" />
   </component>
 </project>
