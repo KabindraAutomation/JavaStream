@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22a59bd-842f-484c-8ecc-fc4039a16dcb" name="Changes" comment="Java Streaming practise">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/GreaterThan100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/NumberSquareAverage.java" afterDir="false" />
+    <list default="true" id="e22a59bd-842f-484c-8ecc-fc4039a16dcb" name="Changes" comment="Java Streaming practise- OddEvenNumbers">
+      <change afterPath="$PROJECT_DIR$/src/Stream/NumberStartWith.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/SumOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/SumOfNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,7 +48,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GreaterThan100">
+  <component name="RunManager" selected="Application.NumberStartWith">
     <configuration name="GreaterThan100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.GreaterThan100" />
       <module name="JavaStream" />
@@ -73,6 +75,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberStartWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.NumberStartWith" />
+      <module name="JavaStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.OddEvenNumbers" />
+      <module name="JavaStream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Stream.AvgOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.AvgOfNumber" />
       <module name="JavaStream" />
@@ -86,25 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stream.SumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.SumOfNumbers" />
-      <module name="JavaStream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberStartWith" />
+        <item itemvalue="Application.OddEvenNumbers" />
         <item itemvalue="Application.GreaterThan100" />
         <item itemvalue="Application.NumberSquareAverage" />
         <item itemvalue="Application.Stream.AvgOfNumber" />
-        <item itemvalue="Application.Stream.SumOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677792800842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java Streaming practise- NumberSquareAverage">
+      <created>1677794542424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677794542424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Java Streaming practise- OddEvenNumbers">
+      <created>1677796942771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677796942771</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Streaming practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Streaming practise" />
+    <MESSAGE value="Java Streaming practise- NumberSquareAverage" />
+    <MESSAGE value="Java Streaming practise- OddEvenNumbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Streaming practise- OddEvenNumbers" />
   </component>
 </project>
